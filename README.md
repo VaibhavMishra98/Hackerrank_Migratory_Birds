@@ -16,3 +16,6 @@ Sample Input
 Sample output
       
       4
+
+Link For the Ques..
+https://www.hackerrank.com/challenges/migratory-birds/problem
