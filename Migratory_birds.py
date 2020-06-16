@@ -6,7 +6,7 @@ import random
 import re
 import sys
 
-# Complete the migratoryBirds function below.
+# The migratoryBirds function is as follows:
 def migratoryBirds(arr,n):
     arr_freq=[0,0,0,0,0,0]
     for j in range(0,len(arr_freq)):
@@ -16,6 +16,7 @@ def migratoryBirds(arr,n):
     k=max(arr_freq)
     return (arr_freq.index(k))
 
+#Main Program Starts here:
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
