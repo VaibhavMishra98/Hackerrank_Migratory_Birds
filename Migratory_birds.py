@@ -16,7 +16,7 @@ def migratoryBirds(arr,n):
     k=max(arr_freq)
     return (arr_freq.index(k))
 
-#Main Program Starts here:
+# Main Program Starts here:
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
